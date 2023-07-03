@@ -1,0 +1,35 @@
+{
+  "name": "lucky-draw-pool-engine",
+  "version": "1.0.0",
+  "description": "Lucky draw pool engine for luck based games",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon src/dev.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richtervn/lucky-draw-pool-engine.git"
+  },
+  "keywords": [
+    "pool",
+    "engine",
+    "luck"
+  ],
+  "author": "Richtervn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richtervn/lucky-draw-pool-engine/issues"
+  },
+  "homepage": "https://github.com/Richtervn/lucky-draw-pool-engine#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "cubic-bezier": "^0.1.2",
+    "dayjs": "^1.11.9",
+    "mongoose": "^7.3.1"
+  }
+}
